@@ -1,15 +1,20 @@
 #include <stdio.h>
+#include <locale.h>
 
-void main()
+int main()
 {
+    setlocale(LC_ALL, "Portuguese");
     printf("<< EX02 - Especiais >> \n");
+
     printf("\n");
     printf("=-=-=-=-=-=-=-=-=-=-=-=\n");
-    printf("\t\\a\t=\tBeep\n");
-    printf("\t\\n\t=\tNova linha\n");
-    printf("\t\\t\t=\tTabulacao\n");
-    printf("\t\\\t=\tBarra\n");
-    printf("\t%%\t=\tPorcentagem\n");
-    printf("\t\\?\t=\tInterrogacao\n");
+    printf(" \\a\t=\t Beep\n");
+    printf(" \\n\t=\t Nova linha\n");
+    printf(" \\t \t=\t Tabulação\n");
+    printf(" \\\\ \t=\t Barra\n");
+    printf(" %%%% \t=\t Porcentagem\n");
+    printf(" \\\? \t=\t Interrogação\n");
     printf("=-=-=-=-=-=-=-=-=-=-=-=\n");
+
+    return 0; 
 }
