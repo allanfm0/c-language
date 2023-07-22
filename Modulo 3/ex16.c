@@ -1,1 +1,0 @@
-//Preço por epoca;

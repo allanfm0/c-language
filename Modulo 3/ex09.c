@@ -1,1 +1,0 @@
-//Positvo ou negativo
